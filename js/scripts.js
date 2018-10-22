@@ -1,4 +1,5 @@
-var newArray = [];
+var newArray = [1];
+console.log(newArray);
 
 
 
@@ -10,8 +11,10 @@ $(document).ready(function() {
     var animal = $("#animal").val();
     var snack = $("#snack").val();
 
+    var newArray = [];
+    console.log(newArray);
+
     newArray.push(color, animal, snack);
-    newArray = [color, animal, snack];
     console.log(newArray);
 
     newArray2 = [newArray[1].slice(), newArray[0].slice(), newArray[2].slice()];
